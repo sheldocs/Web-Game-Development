@@ -1,0 +1,55 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Curtis Sheldon -- About Me</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+  <link rel="stylesheet" href="A1.css?v=1.0">
+
+  
+</head>
+
+<body>
+ 
+	<div class="container">
+		<h1 class="title"> Curtis Sheldon</h1>
+		<div style="text-align:center"><img src="Me.png" alt="Me" height="200" width="200"></div>
+		<div style="text-align:center;  padding-top: 50px; margin-left:-420px;"><button onclick="showParagraph()">About me</button></div>
+		<div id="paragraph" class="paragraph-div-none" style="height: 100px; width: 500px; margin:auto;">
+			<p style="line-height: 30px;">Hi my name is Curtis, but I also go by Max. I'm a senior at UC looking to graduate with a degree in Computer Science. I have worked a few jobs as a developer through coops
+			and long term positions. I have experience in both backend and frontend languages. Some of these include HTML, CSS, javascript, c++, c#, etc. I also have used frameworks such as
+			Microsoft Visual Studio and React. I have not used javascript much for game development so I believe I will learn alot.</p>
+		</div>
+		<div class="wrapper">
+			<hr></hr>
+			<div class="title-div">Favorite Games</div>
+			<hr></hr>
+			<div class="flex-container">
+				<div class="flex-element">League of Legends<br><hr></hr></br><img src="League.png" alt="League" height="100" width="100"></div>
+				<div class="flex-element">Minecraft<br><hr></hr></br><img src="Minecraft.png" alt="Minecraft" height="100" width="100"></div>
+				<div class="flex-element">Borderlands<br><hr></hr></br><img src="Borderlands.jpg" alt="Borderrlands" height="100" width="100"></div>
+				<div class="flex-element">Warcraft III<br><hr></hr></br><img src="Warcraftiii-frozen-throne-boxcover.jpg" alt="WC3" height="100" width="100"></div>
+				<div class="flex-element">Starcraft II<br><hr></hr></br><img src="Starcraft2.jpg" alt="SC2" height="100" width="100"></div>
+			</div>
+		</div>
+	</div>
+
+<script>
+	function showParagraph() {
+		if(document.getElementById("paragraph").style.display === "block")
+		{
+			document.getElementById("paragraph").style.display = "none";
+		}
+		else
+		{
+			document.getElementById("paragraph").style.display = "block";
+		}
+	}
+</script>
+
+</body>
+</html>
