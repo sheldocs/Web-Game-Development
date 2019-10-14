@@ -11,11 +11,11 @@ p {
 .flex-container {
 	display: flex;
 	justify-content: center;
-	margin-top: 50px;
+	margin-top: 40px;
 }
 
 .flex-element {
-	padding-right:50px;
+	padding-right:30px;
 	text-align:center;
 	font-family: monospace;
 	font-weight: bold;
@@ -26,6 +26,7 @@ p {
 	font-size: 25px;
 	text-align: center;
 	font-family: monospace;
+	
 	
 }
 

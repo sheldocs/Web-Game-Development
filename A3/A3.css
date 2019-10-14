@@ -1,0 +1,150 @@
+h1 {
+	text-align: center;
+    font-size: 50px;
+    font-family: monospace;
+}
+
+p {
+	/*color: red*/
+}
+
+.canvas-container{
+    text-align:center;
+}
+
+.canvas{
+    height:300px;
+    width:300px;
+    background-color: black;
+}
+.flex-container {
+	display: flex;
+	justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    height:50px;
+}
+
+.flex-element {
+	border-style: inset;
+    height: 50px;
+    width: 50px;
+    margin-left: 20;
+    text-align:center;
+    font-weight:bold;
+    font-size: 1.2em;
+    line-height: 3;
+}	
+
+.title-div{
+	font-size: 25px;
+	text-align: center;
+    font-family: monospace;
+    margin-bottom: 50px;
+	
+	
+}
+
+.wrapper{
+	margin-top: 120px;
+}
+
+.container{
+	background-image: url("LoremIpsum.png");
+}
+
+.paragraph-div{
+	display:block;
+}
+.paragraph-div-none{
+	display: none;
+}
+
+#textCell1{
+    display:none;
+    /* visibility:hidden; */
+}
+#textCell2{
+    display:none;
+    /* visibility:hidden; */
+}
+#textCell3{
+    display:none;
+    /* visibility:hidden; */
+}
+#textCell4{
+    display:none;
+    /* visibility:hidden; */
+}
+#textCell5{
+    display:none;
+    /* visibility:hidden; */
+}
+#textCell6{
+    display:none;
+    /* visibility:hidden; */
+}
+#textCell7{
+    display:none;
+    /* visibility:hidden; */
+}
+#textCell8{
+    display:none;
+    /* visibility:hidden; */
+}
+#textCell9{
+    display:none;
+    /* visibility:hidden; */
+}
+#textCell10{
+    display:none;
+    /* visibility:hidden; */
+}
+#textCell11{
+    display:none;
+    /* visibility:hidden; */
+}
+#textCell12{
+    display:none;
+    /* visibility:hidden; */
+}
+#textCell13{
+    display:none;
+    /* visibility:hidden; */
+}
+#textCell14{
+    display:none;
+    /* visibility:hidden; */
+}
+#textCell15{
+    display:none;
+    /* visibility:hidden; */
+}
+#play-button{
+    width:50px;
+    height:25px;
+}
+
+.game-controls-container {
+    text-align:center;
+}
+
+#guess-input{
+    width:10px;
+}
+
+.letterbank-div{
+    text-align: center;
+    height:237px;
+}
+
+#result-message{
+    text-align: center;
+    font-family: monospace;
+    display: none;
+    
+}
+
+#result-text{
+    color:green;
+}

@@ -1,0 +1,76 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Curtis Sheldon -- Hang Me Game</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+  <link rel="stylesheet" href="A3.css?v=1.0">
+
+  
+</head>
+
+<body id="body-content">
+ 
+	<div class="container">
+		<div class="wrapper">
+            <div class="title-div">XTREME Hangman</div>
+            <p id="test-p" style="display:none"></p>
+            <p id="test-p2" style="display:none"></p>
+            <p id="guesses-p" style="display:none"></p>
+            <!-- <hr></hr> -->
+            <div id="result-message">
+                <h2 id="result-text"></h2>
+                <p>(Click play to try again!)</p>
+            </div>
+            <div class="canvas-container">
+                <canvas class="canvas" id="canvas"></canvas>
+            </div>
+            <div class="letterbank-div">
+                <h3>Tries: <p id="tries-text"  style="height:50px"></p></h4>
+                <hr/>
+                <h3>Guessed Letters:</h3>
+                <p id="letterbank"  style="height:50px"></p>
+                <hr/>
+            </div>
+			<!-- <hr></hr> -->
+			<div class="flex-container">
+				<div id="textCell1" class="flex-element"></div>
+				<div id="textCell2" class="flex-element"></div>
+				<div id="textCell3" class="flex-element"></div>
+				<div id="textCell4" class="flex-element"></div>
+                <div id="textCell5" class="flex-element"></div>
+                <div id="textCell6" class="flex-element"></div>
+                <div id="textCell7" class="flex-element"></div>
+                <div id="textCell8" class="flex-element"></div>
+                <div id="textCell9" class="flex-element"></div>
+                <div id="textCell10" class="flex-element"></div>
+                <div id="textCell11" class="flex-element"></div>
+                <div id="textCell12" class="flex-element"></div>
+                <div id="textCell13" class="flex-element"></div>
+                <div id="textCell14" class="flex-element"></div>
+                <div id="textCell15" class="flex-element"></div>
+			</div>
+        </div>
+        <div class="game-controls-container">
+            <button id="play-button" autofocus>Play</button>
+            <select id="select-menu">
+                <option value="easy">Easy</option>
+                <option value="medium">Medium</option>
+                <option value="hard">Hard</option>
+            </select>
+            <br/>
+            Guess: <input maxlength="1" id="guess-input"></input>
+            <button id="guess-button" type=submit>OK</button>
+        </div>
+        
+	</div>
+
+<script src="A3.js"></script>
+
+
+</body>
+</html>
